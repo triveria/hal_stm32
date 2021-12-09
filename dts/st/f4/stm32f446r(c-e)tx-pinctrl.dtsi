@@ -688,6 +688,9 @@
 			tim10_ch1_pb8: tim10_ch1_pb8 {
 				pinmux = <STM32_PINMUX('B', 8, AF3)>;
 			};
+			tim1_bkin_pa6: tim1_bkin_pa6 {
+				pinmux = <STM32_PINMUX('A', 6, AF1)>;
+			};
 
 			tim1_ch1n_pa7: tim1_ch1n_pa7 {
 				pinmux = <STM32_PINMUX('A', 7, AF1)>;
